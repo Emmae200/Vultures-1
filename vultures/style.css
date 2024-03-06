@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    background-image: url(albumcover2.jfif);
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: contain;
+}
+
+h1,h2{  
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.tracklist{
+    /* background-color: white; */
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 40%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.tracklist a{
+    text-decoration: none;
+    color: #000000;
+
+}
+nav {
+    background-color: rgba(0, 0, 0,0.4);
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgba(127, 84, 167,0.5);
+}
